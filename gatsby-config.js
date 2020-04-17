@@ -6,6 +6,10 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+<<<<<<< HEAD
+=======
+    `gatsby-plugin-sass`,
+>>>>>>> “MensajeRecordarCambio”
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -16,6 +20,28 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+<<<<<<< HEAD
+=======
+      resolve: 'gatsby-transformer-remark',
+      options: {
+          plugins: [
+            {
+              resolve: `gatsby-remark-relative-images`,
+            },
+              {
+                  resolve: 'gatsby-remark-images',
+                  options: {
+                      maxWidth: 750,
+                      linkImagesToOriginal: false
+                  }
+              }
+              
+          ]
+      }
+  },
+ 
+    {
+>>>>>>> “MensajeRecordarCambio”
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
