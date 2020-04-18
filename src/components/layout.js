@@ -11,11 +11,9 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Footer from './footer'
-<<<<<<< HEAD
-import "./layout.css"
-=======
 //import "./styles/bootstrap.min.css"
->>>>>>> “MensajeRecordarCambio”
+import "./layout.css"
+//import "./styles/bootstrap.min.css"
 
 const Layout = ({children }) => {
   const data = useStaticQuery(graphql`
@@ -27,11 +25,9 @@ const Layout = ({children }) => {
       }
     }
   `)
-<<<<<<< HEAD
 
-=======
   console.log(data)
->>>>>>> “MensajeRecordarCambio”
+
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
@@ -50,11 +46,9 @@ const Layout = ({children }) => {
 }
 
 Layout.propTypes = {
-<<<<<<< HEAD
-  children: PropTypes.node.isRequired,
-=======
   children: PropTypes.node,
->>>>>>> “MensajeRecordarCambio”
+  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
 }
 
 export default Layout
