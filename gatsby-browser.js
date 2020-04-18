@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-=======
 import 'bootstrap/dist/css/bootstrap.css';
 
->>>>>>> “MensajeRecordarCambio”
+
 /**
  * Implement Gatsby's Browser APIs in this file.
  *

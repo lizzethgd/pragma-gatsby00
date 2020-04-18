@@ -6,10 +6,8 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-<<<<<<< HEAD
-=======
+
     `gatsby-plugin-sass`,
->>>>>>> “MensajeRecordarCambio”
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -20,8 +18,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-<<<<<<< HEAD
-=======
       resolve: 'gatsby-transformer-remark',
       options: {
           plugins: [
@@ -41,7 +37,6 @@ module.exports = {
   },
  
     {
->>>>>>> “MensajeRecordarCambio”
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
